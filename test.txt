@@ -1,1 +1,127 @@
-add some changes 
+
+C:\Users\ekaya>mkdir codingals
+
+C:\Users\ekaya>cd codingals
+
+C:\Users\ekaya\codingals>git init
+Initialized empty Git repository in C:/Users/ekaya/codingals/.git/
+
+C:\Users\ekaya\codingals>git status
+
+C:\Users\ekaya\codingals>git status
+
+
+C:\Users\ekaya\codingals>git add test.txt
+
+C:\Users\ekaya\codingals>git commit -m "first commit"
+
+C:\Users\ekaya\codingals>git ls-files
+test.txt
+
+C:\Users\ekaya\codingals>git status
+
+
+C:\Users\ekaya\codingals>git status
+
+
+C:\Users\ekaya\codingals>git diff test.txt
+
+C:\Users\ekaya\codingals>git add .
+
+C:\Users\ekaya\codingals>git status
+
+
+C:\Users\ekaya\codingals>git commit -m "modified textfile"
+
+C:\Users\ekaya\codingals>git log --oneline
+
+C:\Users\ekaya\codingals>git diff 440fbed
+
+
+C:\Users\ekaya\codingals>git status
+
+
+
+C:\Users\ekaya\codingals>git add .
+
+C:\Users\ekaya\codingals>git commit -m "another modification done"
+
+
+C:\Users\ekaya\codingals>git diff test.txt
+
+C:\Users\ekaya\codingals>git add .
+
+C:\Users\ekaya\codingals>git commit -m "adding line2"
+
+
+C:\Users\ekaya\codingals>git log --oneline
+
+
+C:\Users\ekaya\codingals>type test.txt
+
+C:\Users\ekaya\codingals>git checkout HEAD~1 test.txt
+Updated 1 path from 0bfe949
+
+C:\Users\ekaya\codingals>type test.txt
+
+
+C:\Users\ekaya\codingals>git status
+
+
+C:\Users\ekaya\codingals>git commit -m "reverted line3"
+
+
+C:\Users\ekaya\codingals>git log --oneline
+
+
+C:\Users\ekaya\codingals>git checkout a0d6aef test.txt
+
+
+C:\Users\ekaya\codingals>type test.txt
+add some changes
+
+C:\Users\ekaya\codingals>git status
+
+
+
+C:\Users\ekaya\codingals>git commit -m "reverted to line"
+
+
+C:\Users\ekaya\codingals>git log --oneline
+
+
+C:\Users\ekaya\codingals>git ls-files
+test.txt
+
+C:\Users\ekaya\codingals>git ls-files
+test.txt
+
+C:\Users\ekaya\codingals>git ls-files
+test.txt
+
+C:\Users\ekaya\codingals>git ls-files
+test.txt
+
+C:\Users\ekaya\codingals>git status
+
+
+
+C:\Users\ekaya\codingals>git add d.txt
+
+
+
+
+C:\Users\ekaya\codingals>git add k.txt
+
+C:\Users\ekaya\codingals>git commit -m"adding two file"
+
+
+C:\Users\ekaya\codingals>git rm k.txt
+rm 'k.txt'
+
+C:\Users\ekaya\codingals>git ls-files --stage
+
+
+
+                        
+ C:\Users\ekaya\codingals>git ls-files --dir

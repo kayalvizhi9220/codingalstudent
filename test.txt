@@ -1,4 +1,4 @@
-
+hi coding
 C:\Users\ekaya>mkdir codingals
 
 C:\Users\ekaya>cd codingals

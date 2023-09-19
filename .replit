@@ -171,3 +171,7 @@ zeroUnits = "ignore"
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config"]
+
+[deployment]
+publicDir = "/"
+deploymentTarget = "static"
